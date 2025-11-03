@@ -1,0 +1,70 @@
+/* Background tổng thể */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Container calculator */
+.sum-calculator {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 30px 40px;
+  width: 350px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title */
+.sum-calculator h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input boxes */
+.sum-calculator input {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0 15px 0;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+}
+
+/* Button */
+.sum-calculator button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect cho button */
+.sum-calculator button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+/* Lỗi */
+.sum-calculator .error {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Kết quả */
+.sum-calculator .result {
+  color: #2c3e50;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 18px;
+}
